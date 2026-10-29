@@ -1,10 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { createRoot } from 'react-dom/client';
-import {
-  ArrowDownRight, ArrowUpRight, ArrowRight, AtSign, BriefcaseBusiness,
-  Check, Code2, Download, ExternalLink, Github, Linkedin, MapPin, Menu,
-  MousePointer2, Sparkles, X, Zap, Layers3, Gauge, ShieldCheck, Bot
-} from 'lucide-react';
+import { ArrowDownRight, ArrowUpRight, ArrowRight, AtSign, BriefcaseBusiness, Check, Code2, Download, ExternalLink, Github, Linkedin, MapPin, Menu, MousePointer, Sparkles, X, Zap, Layers3, Gauge, ShieldCheck, Bot } from "lucide-react";
 import './styles.css';
 
 const email = 'komalnankani007@gmail.com';
