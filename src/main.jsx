@@ -1,6 +1,26 @@
 import React, { useEffect, useState } from 'react';
 import { createRoot } from 'react-dom/client';
-import { ArrowDownRight, ArrowUpRight, ArrowRight, AtSign, BriefcaseBusiness, Check, Code2, Download, ExternalLink, Github, Linkedin, MapPin, Menu, MousePointer, Sparkles, X, Zap, Layers3, Gauge, ShieldCheck, Bot } from "lucide-react";
+import {
+  ArrowDownRight,
+  ArrowUpRight,
+  ArrowRight,
+  AtSign,
+  BriefcaseBusiness,
+  Check,
+  Code2,
+  Download,
+  ExternalLink,
+  Github,
+  MapPin,
+  Menu,
+  Sparkles,
+  X,
+  Zap,
+  Layers3,
+  Gauge,
+  ShieldCheck,
+  Bot
+} from "lucide-react";
 import './styles.css';
 
 const email = 'komalnankani007@gmail.com';
@@ -156,7 +176,7 @@ function App() {
             <div className="hero-meta">
               <span><MapPin size={14}/> Bengaluru, India</span>
               <span className="meta-divider"></span>
-              <a href={linkedIn} target="_blank" rel="noreferrer"><Linkedin size={14}/> LinkedIn <ArrowUpRight size={12}/></a>
+              <a href={linkedIn} target="_blank" rel="noreferrer"><ExternalLink size={14}/> LinkedIn <ArrowUpRight size={12}/></a>
               <a href={`mailto:${email}`}><AtSign size={14}/> Email me</a>
             </div>
           </div>
@@ -213,7 +233,7 @@ function App() {
         </div>
       </section>
 
-      <section className="contact-section" id="contact"><div className="section-wrap contact-inner"><div className="section-index reveal">06 / CONTACT</div><div className="contact-main reveal"><div><span className="contact-kicker"><span className="status-dot"></span> HAVE A ROLE OR IDEA IN MIND?</span><h2>Let’s build something<br/><span>meaningful.</span></h2><p>I’m always happy to talk about frontend engineering, product challenges and opportunities to make digital experiences better.</p><a className="button button-primary contact-button" href={`mailto:${email}?subject=${encodeURIComponent('Let’s connect — Frontend opportunity')}`}>Start a conversation <ArrowUpRight size={17}/></a></div><div className="contact-links"><a href={`mailto:${email}`}><span className="contact-link-icon"><AtSign size={18}/></span><span><small>EMAIL</small><b>{email}</b></span><ArrowUpRight size={17}/></a><a href={linkedIn} target="_blank" rel="noreferrer"><span className="contact-link-icon"><Linkedin size={18}/></span><span><small>LINKEDIN</small><b>Connect professionally</b></span><ArrowUpRight size={17}/></a><a href="/Komal_Nankani_CV.pdf" download><span className="contact-link-icon"><Download size={18}/></span><span><small>RÉSUMÉ</small><b>Download PDF</b></span><ArrowUpRight size={17}/></a></div></div><footer className="footer"><a className="brand" href="#home"><span className="brand-mark">K<span>.</span></span><span className="brand-name">KOMAL NANKANI</span></a><span>Designed with intention. Built for the web.</span><a href="#home" className="back-top">BACK TO TOP <ArrowUpRight size={13}/></a><span className="copyright">© {new Date().getFullYear()} KOMAL NANKANI</span></footer></div></section>
+      <section className="contact-section" id="contact"><div className="section-wrap contact-inner"><div className="section-index reveal">06 / CONTACT</div><div className="contact-main reveal"><div><span className="contact-kicker"><span className="status-dot"></span> HAVE A ROLE OR IDEA IN MIND?</span><h2>Let’s build something<br/><span>meaningful.</span></h2><p>I’m always happy to talk about frontend engineering, product challenges and opportunities to make digital experiences better.</p><a className="button button-primary contact-button" href={`mailto:${email}?subject=${encodeURIComponent('Let’s connect — Frontend opportunity')}`}>Start a conversation <ArrowUpRight size={17}/></a></div><div className="contact-links"><a href={`mailto:${email}`}><span className="contact-link-icon"><AtSign size={18}/></span><span><small>EMAIL</small><b>{email}</b></span><ArrowUpRight size={17}/></a><a href={linkedIn} target="_blank" rel="noreferrer"><span className="contact-link-icon"><ExternalLink size={18}/></span><span><small>LINKEDIN</small><b>Connect professionally</b></span><ArrowUpRight size={17}/></a><a href="/Komal_Nankani_CV.pdf" download><span className="contact-link-icon"><Download size={18}/></span><span><small>RÉSUMÉ</small><b>Download PDF</b></span><ArrowUpRight size={17}/></a></div></div><footer className="footer"><a className="brand" href="#home"><span className="brand-mark">K<span>.</span></span><span className="brand-name">KOMAL NANKANI</span></a><span>Designed with intention. Built for the web.</span><a href="#home" className="back-top">BACK TO TOP <ArrowUpRight size={13}/></a><span className="copyright">© {new Date().getFullYear()} KOMAL NANKANI</span></footer></div></section>
     </main>
   </>;
 }
