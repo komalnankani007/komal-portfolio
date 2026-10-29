@@ -10,7 +10,6 @@ import {
   Code2,
   Download,
   ExternalLink,
-  Github,
   MapPin,
   Menu,
   Sparkles,
